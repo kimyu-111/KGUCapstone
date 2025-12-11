@@ -1,91 +1,83 @@
 <img src="https://github.com/user-attachments/assets/f6124040-bb97-4a0a-b6af-45725521e352" width="300"/>
 
+Dosing (복용이)
+AI-Powered Medication Assistant & Reminder App for the Elderly
 
-# 💊 복용이 (Dosing)
-> **고령자 맞춤형 AI 의약품 정보 제공 & 복약 알림 안드로이드 애플리케이션**
+ Project Overview
+Dosing is an Android application designed to ensure safe medication practices for the elderly, addressing the challenges of an aging society approaching 2025.
 
-<br>
+Elderly individuals often face "polypharmacy" (taking multiple medications), which significantly increases the risk of confusion and duplicate dosing. Dosing leverages Large Language Model (LLM) systems, Optical Character Recognition (OCR), and Voice Recognition technology to help seniors easily access accurate drug information and manage their medication schedules independently.
 
-## 📖 프로젝트 소개 (Project Overview)
-**복용이(Dosing)**는 2025년 초고령 사회 진입과 함께 증가하는 노인 인구의 안전한 의약품 복용을 돕기 위해 개발된 **안드로이드 애플리케이션**입니다.
+ Development Goals
+Senior-Friendly UX: Provides information via voice and intuitive UI instead of complex text.
 
-고령층은 다제약물(여러 종류의 약)을 복용하는 경우가 많아 혼동이나 중복 복용의 위험이 높습니다. '복용이'는 **LLM(Large Language Model) 시스템과 OCR 기술, 음성 인식**을 활용하여, 어르신들이 스스로 쉽고 정확하게 의약품 정보를 얻고 복약 관리를 할 수 있도록 돕습니다.
+AI-Driven Analysis: Identifies medication and analyzes drug interactions with a single photo.
 
-### 🎯 개발 목표
-* **고령자 친화적 UX:** 복잡한 텍스트 대신 음성과 직관적인 UI로 정보 제공
-* **AI 기반 분석:** 약 사진 촬영 한 번으로 약품 식별 및 상호작용 분석
-* **안전한 복약:** 오남용 방지 및 규칙적인 복약 알림 서비스
+Safe Medication Management: Prevents misuse/abuse and provides regular medication reminders.
 
-<br>
+ Key Features
+1.  Medication Recognition & Info Extraction
+Recognizes the user's medication when scanning pills with a smartphone camera.
 
-## 💡 주요 기능 (Key Features)
+Extracts complex pharmaceutical information and converts it into an easy-to-understand format for the elderly.
 
-### 1. 📸 약품 인식 및 정보 추출
-* 사용자가 알약을 스마트폰 카메라로 촬영하면 사용자의 약품을 인식합니다.
-* 복잡한 의약품 정보를 추출하여 어르신들이 이해하기 쉬운 형태로 변환해 제공합니다.
+2.  Drug Interaction Warning
+Analyzes the interaction between newly prescribed drugs and existing medications.
 
-### 2. ⚠️ 의약품 간 상호작용 안내 (Drug Interaction Warning)
-* 새로 복용하려는 약과 기존에 복용 중인 약을 분석합니다.
-* 같이 먹으면 안 되는 약, 주의해야 할 부작용이 있을 경우 경고 메시지를 띄워줍니다.
+Displays warning messages for contraindications (drugs that shouldn't be taken together) or potential side effects.
 
-### 3. 🎙️ 음성 인식 기반 정보 검색 (Voice Recognition)
-* 타자 입력이 어려운 사용자를 위해 음성 인식을 지원합니다.
-* "이 약 언제 먹어야 해?", "이 약 부작용 있어?" 등 말로 질문하면 AI가 답변을 찾아 알려줍니다.
+3.  Voice-Based Information Search
+Supports voice recognition for users who find typing difficult.
 
-### 4. ⏰ 스마트 복약 알림 (Smart Reminder)
-* 분석된 약품 정보를 바탕으로 자동으로 복약 스케줄을 등록합니다.
-* 아침, 점심, 저녁, 취침 전 등 정해진 시간에 맞춰 **푸시 알림**을 제공합니다.
+AI answers spoken questions such as "When should I take this?" or "Are there any side effects?"
 
-### 5. 📖 쉬운 복약 가이드 (Easy Guide)
-* 어려운 의학 용어를 LLM을 통해 쉬운 말로 풀어서 설명합니다.
-* 직관적인 아이콘과 큰 글씨로 구성된 고령자 친화형 UI를 제공합니다.
+4.  Smart Medication Reminders
+Automatically registers medication schedules based on analyzed drug information.
 
-<br>
+Provides Push Notifications at set times (Breakfast, Lunch, Dinner, Before Bed, etc.).
 
-## 🆚 기존 서비스와의 차별점
+5.  Easy Medication Guide
+Uses LLM to paraphrase difficult medical terminology into simple language.
 
-| 기능 | A앱 (기존 앱) | B앱 (기존 앱) | **복용이 (Dosing)** |
-| :--- | :---: | :---: | :---: |
-| **복용 알림 기능** | ✅ | ❌ | **✅** |
-| **카메라로 의약품 인식** | ✅ | ✅ | **✅** |
-| **음성 검색 및 안내** | ❌ | ❌ | **✅** |
-| **복잡한 정보 쉽게 제공** | ❌ | ✅ | **✅ (LLM)** |
-| **AI 복약 패턴/증상 분석** | ❌ | ❌ | **✅** |
-| **의약품 상호작용 안내** | ❌ | ❌ | **✅** |
-| **고령자 친화적 UI** | ❌ | ❌ | **✅** |
+Features a senior-friendly UI with large text and intuitive icons.Feature,App A (Existing),App B (Existing),Dosing
+Medication Reminder,✅,❌,✅
+Camera Recognition,✅,✅,✅
+Voice Search & Guide,❌,❌,✅
+Simplified Info (LLM),❌,✅,✅
+AI Pattern/Symptom Analysis,❌,❌,✅
+Drug Interaction Warning,❌,❌,✅
+Senior-Friendly UI,❌,❌,✅
 
-<br>
+Category,Technology,Description
+Mobile,,Android Native App Development
+AI / ML,,Voice Recognition (STT) & Text Conversion
+AI / Vision,,Text Extraction & Image Analysis from pill photos
+Database,,"Storage for medication records, symptoms, and drug info"
+Design,,Senior-customized UI/UX Design
 
-## 🛠️ 기술 스택 (Tech Stack)
 
-| 분류 | 기술 | 설명 |
-| :--- | :--- | :--- |
-| **Mobile** | ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white) | 안드로이드 네이티브 앱 개발 |
-| **AI / ML** | ![OpenAI](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white) | 사용자 음성 인식 및 텍스트 변환 (STT) |
-| **AI / Vision** | ![OCR](https://img.shields.io/badge/OCR_&_Vision-FF9900?style=flat) | 약품 사진 텍스트 추출 및 이미지 분석 |
-| **Database** | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=white) | 사용자 복약 기록, 증상 데이터, 의약품 정보 저장 |
-| **Design** | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white) | 고령자 맞춤형 UI/UX 설계 |
+System Flow
+User Input: Camera capture (pill photo) or Voice question.
 
-<br>
+AI Analysis: Text extraction via OCR, Image analysis, and Speech-to-Text conversion.
 
-## 📱 시스템 흐름도 (System Flow)
-1.  **사용자 입력:** 카메라 촬영 (약 사진) 또는 음성 질문
-2.  **AI 분석:** OCR로 텍스트 추출 및 이미지를 분석, 음성을 텍스트화
-3.  **정보 처리:** 의약품 정보 매칭, 상호작용 분석, LLM을 통한 쉬운 설명 생성
-4.  **결과 출력:** 복약 가이드 제공, 알림 자동 등록, 주의사항 팝업
-5.  **DB 저장:** Firebase에 복약 기록 및 사용자 데이터 업데이트
+Processing: Drug information matching, Interaction analysis, and simplification via LLM.
 
-<br>
+Output: Medication guide display, Auto-registration of reminders, Warning pop-ups.
 
-## 👥 팀 정보 (Team Solstice)
-**경기대학교 AI컴퓨터공학부**
+DB Storage: Update medication records and user data in Firebase.
 
-* **지도교수:** 나관상
-* **팀원:** 김유, 김준호, 신민철, 박준영, 엄지영, 박정은
-* **기획:** 김유, 박준영
-* **개발:** 신민철
-* **디자인:** 김준호, 박준영, 엄지영, 박정은
-* **논문 작성:** 김유, 박준영, 신민철
+Team Info (Team Solstice)
+Kyonggi University, Dept. of AI Computer Science
 
----
-*이 프로젝트는 2025년 고령 인구 20% 진입에 대비하여, 기술을 통해 사회적 문제를 해결하고자 기획되었습니다.*
+Advisor: Gwansang Na
+
+Members: Yu Kim, Junho Kim, Mincheol Shin, Junyoung Park, Jiyoung Eom, Jeongeun Park
+
+Planning: Yu Kim, Junyoung Park
+
+Development: Mincheol Shin
+
+Design: Junho Kim, Junyoung Park, Jiyoung Eom, Jeongeun Park
+
+Paper Writing: Yu Kim, Junyoung Park, Mincheol Shin
