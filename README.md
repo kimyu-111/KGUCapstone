@@ -2,6 +2,7 @@
 
 # 💊 Dosing (복용이)
 > **AI-Powered Medication Assistant & Reminder App for the Elderly**
+> Paper will posted in JISC 
 
 <br>
 
