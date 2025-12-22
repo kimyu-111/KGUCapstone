@@ -80,11 +80,11 @@ Elderly individuals often face "polypharmacy" (taking multiple medications), whi
 **Kyonggi University, Dept. of AI Computer Science**
 
 * **Advisor:** Gwansang Na
-* **Members:** Yu Kim, Junho Kim, Mincheol Shin, Junyoung Park, Jiyoung Eom, Jeongeun Park
-* **Planning:** Yu Kim, Junyoung Park
+* **Members:** Yu Kim(Leader of Team), Junho Kim, Mincheol Shin, Junyoung Park, Jiyoung Eom, Jeongeun Park
+* **Planning:** Yu Kim, Junyoung Park,Jiyoung Eom
 * **Development:** Mincheol Shin
 * **Design:** Yu Kim,Junho Kim, Junyoung Park, Jiyoung Eom, Jeongeun Park
-* **Paper Writing:** Yu Kim, Junyoung Park, Mincheol Shin
+* **Paper Writing:** Yu Kim(Lead Author), Junyoung Park, Mincheol Shin
 
 ---
 *This project was planned to solve social issues through technology in preparation for the elderly population reaching 20% in 2025.*
