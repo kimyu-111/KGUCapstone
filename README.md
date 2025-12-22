@@ -81,7 +81,7 @@ Elderly individuals often face "polypharmacy" (taking multiple medications), whi
 **Kyonggi University, Dept. of AI Computer Science**
 
 * **Advisor:** Gwansang Na
-* **Members:** Yu Kim(Leader of Team), Junho Kim, Mincheol Shin, Junyoung Park, Jiyoung Eom, Jeongeun Park
+* **Members:** Yu Kim(Leader of Team,PM), Junho Kim, Mincheol Shin, Junyoung Park, Jiyoung Eom, Jeongeun Park
 * **Planning:** Yu Kim, Junyoung Park,Jiyoung Eom
 * **Development:** Mincheol Shin
 * **Design:** Yu Kim,Junho Kim, Junyoung Park, Jiyoung Eom, Jeongeun Park
