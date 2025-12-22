@@ -83,7 +83,7 @@ Elderly individuals often face "polypharmacy" (taking multiple medications), whi
 * **Members:** Yu Kim, Junho Kim, Mincheol Shin, Junyoung Park, Jiyoung Eom, Jeongeun Park
 * **Planning:** Yu Kim, Junyoung Park
 * **Development:** Mincheol Shin
-* **Design:** Junho Kim, Junyoung Park, Jiyoung Eom, Jeongeun Park
+* **Design:** Yu Kim,Junho Kim, Junyoung Park, Jiyoung Eom, Jeongeun Park
 * **Paper Writing:** Yu Kim, Junyoung Park, Mincheol Shin
 
 ---
