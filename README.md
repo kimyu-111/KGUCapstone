@@ -86,6 +86,6 @@ Elderly individuals often face "polypharmacy" (taking multiple medications), whi
 * **Development:** Mincheol Shin
 * **Design:** Yu Kim,Junho Kim, Junyoung Park, Jiyoung Eom, Jeongeun Park
 * **Paper Writing:** Yu Kim(Lead Author), Junyoung Park, Mincheol Shin
-
+**Paper Presenting in APIC-IST 2025(THAILAND 7/7~7/9, Representation Conducted by Yu kim), Result= Recommand to JICS JOURNAL**
 ---
 *This project was planned to solve social issues through technology in preparation for the elderly population reaching 20% in 2025.*
